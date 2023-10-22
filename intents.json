@@ -1,0 +1,1265 @@
+{"intents": [
+        {"tag": "Hello",
+         "patterns": ["Hi", "Hello", "Yo how you doing","what can you do for me"],
+         "responses": ["Hello my dear friend", "Hey Mate!", "Yeah I am good, thanks for asking","Ask me anything! Mate"],
+         "context": [""]
+        },
+        {"tag": "who are you",
+         "patterns": ["who are you", "are you single", "how old are you"],
+         "responses": ["I am legal assistant ", "ofcourse just like you ", "My age is infinity as long as someone is maintaining me"],
+         "context": [""]
+        },
+        {"tag": "purpose",
+         "patterns": ["what is your purpose for your life", "do you like girls"],
+         "responses": ["I am born to take care of humans and upgrade the world", "Few girls only, many of them are annoying", ""],
+         "context": [""]
+        },
+        {"tag": "deep learning",
+         "patterns": ["what is deep learning", "why to study deep learning"],
+         "responses": ["deep learning is based on the learning of neural networks, just like the neurons captures memory in our brain.","deep learning is used to solve real world complex problems like self driving cars and even i am also built on this technology only"],
+         "context": [""]
+        },
+        
+    {
+      "tag": "Intro_Legal_Law",
+      "patterns": ["What is the field of legal law?"],
+      "responses": ["Legal law encompasses a wide range of legal subjects, including criminal law, civil law, family law, and more."],
+      "context": [""]
+    },
+    {
+      "tag": "Criminal_Law_Basics",
+      "patterns": ["Explain the basics of criminal law."],
+      "responses": ["Criminal law deals with crimes and their prosecution. It defines acts that are prohibited and prescribes punishments for those who commit such acts."],
+      "context": [""]
+    },
+    {
+      "tag": "Civil_Law_Definition",
+      "patterns": ["Define civil law."],
+      "responses": ["Civil law focuses on disputes between individuals or entities, typically involving issues like contracts, property, and personal injury."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Overview",
+      "patterns": ["Provide an overview of family law."],
+      "responses": ["Family law deals with matters related to family relationships, including divorce, child custody, adoption, and marriage."],
+      "context": [""]
+    },
+    {
+      "tag": "Contract_Law_Basics",
+      "patterns": ["Explain the basics of contract law."],
+      "responses": ["Contract law governs the creation and enforcement of agreements between parties. It outlines the terms, conditions, and obligations."],
+      "context": [""]
+    },
+    {
+      "tag": "Intellectual_Property_Law",
+      "patterns": ["Discuss intellectual property law."],
+      "responses": ["Intellectual property law protects creative works, inventions, and trademarks. It includes copyright, patents, and trademarks."],
+      "context": [""]
+    },
+    {
+      "tag": "Personal_Injury_Law",
+      "patterns": ["What is personal injury law?"],
+      "responses": ["Personal injury law addresses cases where a person is injured due to another's negligence, leading to compensation claims."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitutional_Law",
+      "patterns": ["Explain constitutional law."],
+      "responses": ["Constitutional law deals with the interpretation and application of a country's constitution. It sets the framework for government and individual rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Employment_Law",
+      "patterns": ["Discuss employment law."],
+      "responses": ["Employment law governs the relationship between employers and employees. It covers issues like hiring, termination, and workplace discrimination."],
+      "context": [""]
+    },
+    {
+      "tag": "Environmental_Law",
+      "patterns": ["Tell me about environmental law."],
+      "responses": ["Environmental law regulates the impact of human activities on the environment. It includes rules on pollution, conservation, and natural resources."],
+      "context": [""]
+    },
+    {
+      "tag": "Intro_Legal_Law",
+      "patterns": ["What is the field of legal law?"],
+      "responses": ["Legal law encompasses a wide range of legal subjects, including criminal law, civil law, family law, and more."],
+      "context": [""]
+    },
+    {
+      "tag": "Criminal_Law_Basics",
+      "patterns": ["Explain the basics of criminal law."],
+      "responses": ["Criminal law deals with crimes and their prosecution. It defines acts that are prohibited and prescribes punishments for those who commit such acts."],
+      "context": [""]
+    },
+    {
+      "tag": "Civil_Law_Definition",
+      "patterns": ["Define civil law."],
+      "responses": ["Civil law focuses on disputes between individuals or entities, typically involving issues like contracts, property, and personal injury."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Overview",
+      "patterns": ["Provide an overview of family law."],
+      "responses": ["Family law deals with matters related to family relationships, including divorce, child custody, adoption, and marriage."],
+      "context": [""]
+    },
+    {
+      "tag": "Contract_Law_Basics",
+      "patterns": ["Explain the basics of contract law."],
+      "responses": ["Contract law governs the creation and enforcement of agreements between parties. It outlines the terms, conditions, and obligations."],
+      "context": [""]
+    },
+    {
+      "tag": "Intellectual_Property_Law",
+      "patterns": ["Discuss intellectual property law."],
+      "responses": ["Intellectual property law protects creative works, inventions, and trademarks. It includes copyright, patents, and trademarks."],
+      "context": [""]
+    },
+    {
+      "tag": "Personal_Injury_Law",
+      "patterns": ["What is personal injury law?"],
+      "responses": ["Personal injury law addresses cases where a person is injured due to another's negligence, leading to compensation claims."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitutional_Law",
+      "patterns": ["Explain constitutional law."],
+      "responses": ["Constitutional law deals with the interpretation and application of a country's constitution. It sets the framework for government and individual rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Employment_Law",
+      "patterns": ["Discuss employment law."],
+      "responses": ["Employment law governs the relationship between employers and employees. It covers issues like hiring, termination, and workplace discrimination."],
+      "context": [""]
+    },
+    {
+      "tag": "Environmental_Law",
+      "patterns": ["Tell me about environmental law."],
+      "responses": ["Environmental law regulates the impact of human activities on the environment. It includes rules on pollution, conservation, and natural resources."],
+      "context": [""]
+    },
+    {
+      "tag": "Tort_Law_Overview",
+      "patterns": ["Provide an overview of tort law.", "What is tort law?"],
+      "responses": ["Tort law deals with civil wrongs and liabilities, including personal injury, property damage, and defamation."],
+      "context": [""]
+    },
+    {
+      "tag": "Business_Law",
+      "patterns": ["Explain business law.", "Discuss corporate law."],
+      "responses": ["Business law covers legal matters related to businesses, such as contracts, mergers, and intellectual property."],
+      "context": [""]
+    },
+    {
+      "tag": "Human_Rights_Law",
+      "patterns": ["Tell me about human rights law.", "Explain international human rights law."],
+      "responses": ["Human rights law focuses on protecting and promoting fundamental rights and freedoms at the international level."],
+      "context": [""]
+    },
+    {
+      "tag": "Property_Law",
+      "patterns": ["Discuss property law.", "Explain real estate law."],
+      "responses": ["Property law governs the ownership, transfer, and use of real and personal property, including land and buildings."],
+      "context": [""]
+    },
+    {
+      "tag": "Cyber_Law",
+      "patterns": ["What is cyber law?", "Discuss internet law."],
+      "responses": ["Cyber law deals with legal issues related to the internet, including cybersecurity, data protection, and online crimes."],
+      "context": [""]
+    },
+    {
+      "tag": "Consumer_Protection_Laws",
+      "patterns": ["Explain consumer protection laws.", "Discuss product liability."],
+      "responses": ["Consumer protection laws aim to safeguard consumers from fraudulent or harmful business practices."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Child_Custody",
+      "patterns": ["How is child custody determined?", "Explain family law custody battles."],
+      "responses": ["Child custody decisions are made based on the best interests of the child, taking into account various factors."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Law",
+      "patterns": ["Discuss immigration law.", "Explain the immigration process."],
+      "responses": ["Immigration law covers the rules and regulations governing the entry and stay of foreign nationals in a country."],
+      "context": [""]
+    },
+    {
+      "tag": "Bankruptcy_Law",
+      "patterns": ["What is bankruptcy law?", "Discuss personal bankruptcy."],
+      "responses": ["Bankruptcy law provides options for individuals and businesses facing financial hardship to manage and resolve debt."],
+      "context": [""]
+    },
+    {
+      "tag": "Criminal_Defense_Law",
+      "patterns": ["Explain the role of a criminal defense attorney.", "Discuss legal defenses."],
+      "responses": ["A criminal defense attorney represents individuals accused of crimes and may use various defenses, such as alibi or self-defense."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitutional_Rights",
+      "patterns": ["Discuss constitutional rights.", "Explain the First Amendment."],
+      "responses": ["Constitutional rights, such as the First Amendment, protect fundamental freedoms like freedom of speech, religion, and the press."],
+      "context": [""]
+    },
+    {
+      "tag": "Privacy_Law",
+      "patterns": ["Tell me about privacy law.", "Discuss data protection regulations."],
+      "responses": ["Privacy law addresses the collection, use, and protection of personal data, with regulations like GDPR and HIPAA."],
+      "context": [""]
+    },
+    {
+      "tag": "Environmental_Regulations",
+      "patterns": ["Explain environmental regulations.", "Discuss pollution control laws."],
+      "responses": ["Environmental regulations aim to mitigate pollution, protect ecosystems, and promote sustainable practices."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Visas",
+      "patterns": ["How can I apply for a work visa?", "Explain the H-1B visa process."],
+      "responses": ["Obtaining a work visa, such as the H-1B, typically involves sponsorship by a U.S. employer and a specific application process."],
+      "context": [""]
+    },
+    {
+      "tag": "Medical_Malpractice",
+      "patterns": ["Discuss medical malpractice.", "How to prove a medical malpractice case?"],
+      "responses": ["Medical malpractice occurs when a healthcare provider's negligence harms a patient, and proving a case requires evidence of negligence."],
+      "context": [""]
+    },
+    {
+      "tag": "Traffic_Laws",
+      "patterns": ["Explain traffic laws.", "Discuss common traffic violations."],
+      "responses": ["Traffic laws regulate road safety, covering rules for driving, speed limits, and penalties for violations."],
+      "context": [""]
+    },
+    {
+      "tag": "Intellectual_Property_Protection",
+      "patterns": ["How to protect my intellectual property?", "Discuss copyright protection."],
+      "responses": ["Intellectual property protection involves registering trademarks, patents, and copyrights to safeguard creative and innovative works."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Green_Card",
+      "patterns": ["How can I obtain a green card?", "Discuss the green card application process."],
+      "responses": ["Obtaining a green card involves various pathways, such as family sponsorship, employment, or asylum."],
+      "context": [""]
+    },
+    {
+      "tag": "Tax_Law",
+      "patterns": ["Discuss tax law.", "Explain income tax regulations."],
+      "responses": ["Tax law governs the collection and enforcement of taxes, including income tax, corporate tax, and deductions."],
+      "context": [""]
+    },
+    {
+      "tag": "Legal_Ethics",
+      "patterns": ["Discuss legal ethics.", "Explain attorney-client privilege."],
+      "responses": ["Legal ethics dictate the conduct of attorneys, including maintaining attorney-client privilege and avoiding conflicts of interest."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Divorce",
+      "patterns": ["How to file for divorce?", "Discuss divorce laws."],
+      "responses": ["Filing for divorce involves legal proceedings to end a marriage, addressing issues like property division and child custody."],
+      "context": [""]
+    },
+    {
+      "tag": "Employment_Discrimination",
+      "patterns": ["Discuss employment discrimination.", "What is workplace discrimination?"],
+      "responses": ["Employment discrimination occurs when individuals are treated unfairly at work based on factors like race, gender, or age."],
+      "context": [""]
+    },
+    {
+      "tag": "Business_Contracts",
+      "patterns": ["How to create a business contract?", "Explain the elements of a contract."],
+      "responses": ["Business contracts require offer, acceptance, consideration, and lawful purpose, and they are essential for formalizing agreements."],
+      "context": [""]
+    },
+    {
+      "tag": "Estate_Planning",
+      "patterns": ["Discuss estate planning.", "What is a last will and testament?"],
+      "responses": ["Estate planning involves preparing for the distribution of assets after death, often with documents like wills and trusts."],
+      "context": [""]
+    },
+    {
+      "tag": "International_Law",
+      "patterns": ["Explain international law.", "Discuss treaties and agreements."],
+      "responses": ["International law governs the relations between countries and addresses issues like treaties, diplomacy, and human rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Deportation",
+      "patterns": ["What are the grounds for deportation?", "Explain the removal process."],
+      "responses": ["Deportation grounds can include criminal convictions"],
+      "context": [""]
+    },
+    {
+      "tag": "Tort_Law_Overview",
+      "patterns": ["Provide an overview of tort law.", "What is tort law?"],
+      "responses": ["Tort law deals with civil wrongs and liabilities, including personal injury, property damage, and defamation."],
+      "context": [""]
+    },
+    {
+      "tag": "Business_Law",
+      "patterns": ["Explain business law.", "Discuss corporate law."],
+      "responses": ["Business law covers legal matters related to businesses, such as contracts, mergers, and intellectual property."],
+      "context": [""]
+    },
+    {
+      "tag": "Human_Rights_Law",
+      "patterns": ["Tell me about human rights law.", "Explain international human rights law."],
+      "responses": ["Human rights law focuses on protecting and promoting fundamental rights and freedoms at the international level."],
+      "context": [""]
+    },
+    {
+      "tag": "Property_Law",
+      "patterns": ["Discuss property law.", "Explain real estate law."],
+      "responses": ["Property law governs the ownership, transfer, and use of real and personal property, including land and buildings."],
+      "context": [""]
+    },
+    {
+      "tag": "Cyber_Law",
+      "patterns": ["What is cyber law?", "Discuss internet law."],
+      "responses": ["Cyber law deals with legal issues related to the internet, including cybersecurity, data protection, and online crimes."],
+      "context": [""]
+    },
+    {
+      "tag": "Consumer_Protection_Laws",
+      "patterns": ["Explain consumer protection laws.", "Discuss product liability."],
+      "responses": ["Consumer protection laws aim to safeguard consumers from fraudulent or harmful business practices."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Child_Custody",
+      "patterns": ["How is child custody determined?", "Explain family law custody battles."],
+      "responses": ["Child custody decisions are made based on the best interests of the child, taking into account various factors."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Law",
+      "patterns": ["Discuss immigration law.", "Explain the immigration process."],
+      "responses": ["Immigration law covers the rules and regulations governing the entry and stay of foreign nationals in a country."],
+      "context": [""]
+    },
+    {
+      "tag": "Bankruptcy_Law",
+      "patterns": ["What is bankruptcy law?", "Discuss personal bankruptcy."],
+      "responses": ["Bankruptcy law provides options for individuals and businesses facing financial hardship to manage and resolve debt."],
+      "context": [""]
+    },
+    {
+      "tag": "Criminal_Defense_Law",
+      "patterns": ["Explain the role of a criminal defense attorney.", "Discuss legal defenses."],
+      "responses": ["A criminal defense attorney represents individuals accused of crimes and may use various defenses, such as alibi or self-defense."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitutional_Rights",
+      "patterns": ["Discuss constitutional rights.", "Explain the First Amendment."],
+      "responses": ["Constitutional rights, such as the First Amendment, protect fundamental freedoms like freedom of speech, religion, and the press."],
+      "context": [""]
+    },
+    {
+      "tag": "Privacy_Law",
+      "patterns": ["Tell me about privacy law.", "Discuss data protection regulations."],
+      "responses": ["Privacy law addresses the collection, use, and protection of personal data, with regulations like GDPR and HIPAA."],
+      "context": [""]
+    },
+    {
+      "tag": "Environmental_Regulations",
+      "patterns": ["Explain environmental regulations.", "Discuss pollution control laws."],
+      "responses": ["Environmental regulations aim to mitigate pollution, protect ecosystems, and promote sustainable practices."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Visas",
+      "patterns": ["How can I apply for a work visa?", "Explain the H-1B visa process."],
+      "responses": ["Obtaining a work visa, such as the H-1B, typically involves sponsorship by a U.S. employer and a specific application process."],
+      "context": [""]
+    },
+    {
+      "tag": "Medical_Malpractice",
+      "patterns": ["Discuss medical malpractice.", "How to prove a medical malpractice case?"],
+      "responses": ["Medical malpractice occurs when a healthcare provider's negligence harms a patient, and proving a case requires evidence of negligence."],
+      "context": [""]
+    },
+    {
+      "tag": "Traffic_Laws",
+      "patterns": ["Explain traffic laws.", "Discuss common traffic violations."],
+      "responses": ["Traffic laws regulate road safety, covering rules for driving, speed limits, and penalties for violations."],
+      "context": [""]
+    },
+    {
+      "tag": "Intellectual_Property_Protection",
+      "patterns": ["How to protect my intellectual property?", "Discuss copyright protection."],
+      "responses": ["Intellectual property protection involves registering trademarks, patents, and copyrights to safeguard creative and innovative works."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Green_Card",
+      "patterns": ["How can I obtain a green card?", "Discuss the green card application process."],
+      "responses": ["Obtaining a green card involves various pathways, such as family sponsorship, employment, or asylum."],
+      "context": [""]
+    },
+    {
+      "tag": "Tax_Law",
+      "patterns": ["Discuss tax law.", "Explain income tax regulations."],
+      "responses": ["Tax law governs the collection and enforcement of taxes, including income tax, corporate tax, and deductions."],
+      "context": [""]
+    },
+    {
+      "tag": "Legal_Ethics",
+      "patterns": ["Discuss legal ethics.", "Explain attorney-client privilege."],
+      "responses": ["Legal ethics dictate the conduct of attorneys, including maintaining attorney-client privilege and avoiding conflicts of interest."],
+      "context": [""]
+    },
+    {
+      "tag": "Family_Law_Divorce",
+      "patterns": ["How to file for divorce?", "Discuss divorce laws."],
+      "responses": ["Filing for divorce involves legal proceedings to end a marriage, addressing issues like property division and child custody."],
+      "context": [""]
+    },
+    {
+      "tag": "Employment_Discrimination",
+      "patterns": ["Discuss employment discrimination.", "What is workplace discrimination?"],
+      "responses": ["Employment discrimination occurs when individuals are treated unfairly at work based on factors like race, gender, or age."],
+      "context": [""]
+    },
+    {
+      "tag": "Business_Contracts",
+      "patterns": ["How to create a business contract?", "Explain the elements of a contract."],
+      "responses": ["Business contracts require offer, acceptance, consideration, and lawful purpose, and they are essential for formalizing agreements."],
+      "context": [""]
+    },
+    {
+      "tag": "Estate_Planning",
+      "patterns": ["Discuss estate planning.", "What is a last will and testament?"],
+      "responses": ["Estate planning involves preparing for the distribution of assets after death, often with documents like wills and trusts."],
+      "context": [""]
+    },
+    {
+      "tag": "International_Law",
+      "patterns": ["Explain international law.", "Discuss treaties and agreements."],
+      "responses": ["International law governs the relations between countries and addresses issues like treaties, diplomacy, and human rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Immigration_Deportation",
+      "patterns": ["What are the grounds for deportation?", "Explain the removal process."],
+      "responses": ["Deportation grounds can include criminal convictions, visa violations, or security risks."],
+      "context": [""]
+    },
+    {
+      "tag": "Indian_Judiciary_Overview",
+      "patterns": ["Tell me about the Indian judiciary system.", "Explain the structure of the Indian judiciary."],
+      "responses": ["The Indian judiciary consists of the Supreme Court, High Courts, and subordinate courts. It upholds the rule of law and safeguards constitutional rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Supreme_Court_India",
+      "patterns": ["Discuss the role of the Supreme Court of India.", "Explain the jurisdiction of the Supreme Court."],
+      "responses": ["The Supreme Court is the highest court in India and has original, appellate, and advisory jurisdiction. It interprets the Constitution and ensures justice."],
+      "context": [""]
+    },
+    {
+      "tag": "High_Courts_India",
+      "patterns": ["Explain the functions of High Courts in India.", "Discuss the powers of High Courts."],
+      "responses": ["High Courts have jurisdiction over states and union territories. They handle both civil and criminal cases, including writ petitions."],
+      "context": [""]
+    },
+    {
+      "tag": "District_Courts_India",
+      "patterns": ["Tell me about district courts in India.", "Explain the role of district-level judiciary."],
+      "responses": ["District courts are the lowest tier of the judiciary and handle civil, criminal, and family law matters at the district level."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Appointments_India",
+      "patterns": ["How are judges appointed in India?", "Discuss the process of judicial appointments."],
+      "responses": ["Judges are appointed by the President of India on the advice of the Chief Justice and a collegium. The process ensures independence and impartiality."],
+      "context": [""]
+    },
+    {
+      "tag": "Public_Interest_Litigation",
+      "patterns": ["Explain the concept of Public Interest Litigation (PIL) in India.", "Discuss the significance of PIL."],
+      "responses": ["PIL allows citizens to seek justice for public issues. It has been instrumental in addressing social and environmental concerns."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Independence",
+      "patterns": ["Discuss the independence of the Indian judiciary.", "Explain the importance of a free judiciary."],
+      "responses": ["Judicial independence is a cornerstone of democracy, ensuring that judges can make impartial decisions without external influence."],
+      "context": [""]
+    },
+    {
+      "tag": "Indian_Legal_Procedures",
+      "patterns": ["Explain legal procedures in Indian courts.", "Discuss the court process in India."],
+      "responses": ["Indian courts follow adversarial procedures, with trials, appeals, and various stages of litigation for civil and criminal cases."],
+      "context": [""]
+    },
+    {
+      "tag": "Notable_Indian_Judicial_Decisions",
+      "patterns": ["Discuss notable judicial decisions in India.", "Explain landmark cases."],
+      "responses": ["Landmark cases like Kesavananda Bharati, Maneka Gandhi, and others have shaped constitutional interpretation and individual rights in India."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Reforms_India",
+      "patterns": ["Tell me about ongoing judicial reforms in India.", "Discuss the need for judicial reforms."],
+      "responses": ["India is continually working on judicial reforms to enhance efficiency, reduce case backlog, and improve access to justice."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Code_Of_Ethics",
+      "patterns": ["Explain the judicial code of ethics in India.", "Discuss the ethical standards for judges."],
+      "responses": ["Judges in India are expected to adhere to a code of ethics that includes principles of impartiality, integrity, and avoidance of conflicts of interest."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Independence_India",
+      "patterns": ["Discuss judicial independence in the Indian context.", "Explain the significance of an independent judiciary."],
+      "responses": ["Judicial independence is vital in India to ensure judges can make unbiased decisions without interference from other branches of government."],
+      "context": [""]
+    },
+    {
+      "tag": "Conflict_Of_Interest_Judiciary",
+      "patterns": ["Explain the concept of conflict of interest for judges.", "Discuss how conflicts of interest are addressed."],
+      "responses": ["Judges must avoid situations that may give rise to conflicts of interest, and recuse themselves from cases where they have a personal or financial interest."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Accountability",
+      "patterns": ["Discuss judicial accountability in India.", "Explain the mechanisms for holding judges accountable."],
+      "responses": ["Judicial accountability mechanisms include impeachment by Parliament and disciplinary action by the judiciary itself, ensuring ethical conduct."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Misconduct",
+      "patterns": ["Explain what constitutes judicial misconduct.", "Discuss examples of judicial misconduct."],
+      "responses": ["Judicial misconduct may include bribery, bias, abuse of power, or unethical behavior, and it can lead to disciplinary action or removal."],
+      "context": [""]
+    },
+    {
+      "tag": "Complaints_Against_Judges",
+      "patterns": ["How can one file a complaint against a judge in India?", "Discuss the process of lodging complaints against judges."],
+      "responses": ["Complaints against judges can be filed with the Chief Justice of the High Court or the Chief Justice of India, and they are reviewed for further action."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Impeachment",
+      "patterns": ["Explain the process of impeaching a judge in India.", "Discuss cases of judicial impeachment."],
+      "responses": ["Impeachment of a judge is a rare and elaborate process involving both houses of Parliament, aimed at removing a judge due to serious misconduct or incapacity."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Legislation_Role",
+      "patterns": ["What is the role of the judiciary in lawmaking?", "Discuss the impact of judicial decisions on legislation."],
+      "responses": ["Judicial decisions often interpret or clarify existing laws, but they can also fill legislative gaps and influence future legislation in India."],
+      "context": [""]
+    },
+    {
+      "tag": "Contempt_Of_Court",
+      "patterns": ["Explain the concept of contempt of court.", "Discuss the types of contempt in India."],
+      "responses": ["Contempt of court includes civil and criminal contempt. It prohibits actions that undermine the dignity and authority of the court."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Responsiveness",
+      "patterns": ["Discuss the responsiveness of the Indian judiciary.", "Explain how the judiciary addresses public concerns."],
+      "responses": ["The judiciary in India is responsive to public concerns through public interest litigation (PIL) and by interpreting the Constitution in light of evolving societal needs."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Integrity",
+      "patterns": ["Explain the importance of judicial integrity.", "Discuss measures to maintain judicial integrity."],
+      "responses": ["Judicial integrity is crucial to uphold the credibility of the judiciary. It is maintained through transparency, ethics, and accountability."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Recusal",
+      "patterns": ["Explain the concept of judicial recusal.", "Discuss situations in which judges recuse themselves."],
+      "responses": ["Judges recuse themselves when they have a personal interest in a case, a potential conflict of interest, or a prior involvement that may compromise impartiality."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Continuing_Education",
+      "patterns": ["Discuss the need for continuing education for judges.", "Explain how judges stay updated on legal developments."],
+      "responses": ["Continuing education ensures judges are informed about legal developments, precedents, and evolving jurisprudence."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Reports_Publishing",
+      "patterns": ["How are judicial reports published in India?", "Discuss the publication of legal judgments."],
+      "responses": ["Judicial reports, including important judgments, are published by the courts themselves and are available to the public and legal practitioners."],
+      "context": [""]
+    },
+    {
+      "tag": "Judicial_Interpreter_Use",
+      "patterns": ["Can judges use interpreters in court?", "Discuss the role of interpreters in legal proceedings."],
+      "responses": ["Judges may use interpreters to facilitate communication in court, especially in cases where parties speak different languages."]
+    },
+    {
+      "tag": "Judicial_Social_Responsibility",
+      "patterns": ["Discuss the concept of judicial social responsibility.", "Explain how judges engage in social responsibility activities."],
+      "responses": ["Judicial social responsibility involves judges participating in activities that benefit society and promote access to justice."]
+    },
+    {
+      "tag": "Judicial_Precedents_Importance",
+      "patterns": ["Explain the importance of judicial precedents in India.", "Discuss how precedents influence future cases."],
+      "responses": ["Judicial precedents play a significant role in Indian law, providing guidance to judges and lawyers and promoting consistency in decisions."]
+    },
+    {
+      "tag": "Judicial_Transparency",
+      "patterns": ["Discuss the transparency of the Indian judiciary.", "Explain how transparency is maintained."],
+      "responses": ["Transparency is maintained through open court proceedings, judgments, and public access to information about cases."]
+    },
+    {
+      "tag": "Judicial_Diversity",
+      "patterns": ["Discuss the need for diversity on the bench.", "Explain how judicial diversity is promoted."],
+      "responses": ["Diversity on the bench is important to ensure varied perspectives and equitable representation, and it is promoted through inclusive appointments."]
+    },
+    {
+      "tag": "Judicial_Language_Use",
+      "patterns": ["What languages are used in the Indian judiciary?", "Discuss the use of regional languages in courts."],
+      "responses": ["In the Indian judiciary, multiple languages are used, including regional languages, to ensure access to justice for all citizens."]
+    },
+    {
+      "tag": "Judicial_Committees_Function",
+      "patterns": ["Explain the function of judicial committees in India.", "Discuss the role of committees in the judiciary."],
+      "responses": ["Judicial committees are established to study and recommend improvements in various aspects of the judicial system, including administration and reforms."]
+    },
+    {
+      "tag": "Judicial_Public_Relations",
+      "patterns": ["Discuss the role of public relations in the judiciary.", "Explain how the judiciary communicates with the public."],
+      "responses": ["Public relations in the judiciary involve outreach, providing information, and engaging with the public to enhance understanding of the legal system."]
+    },
+    {
+      "tag": "Judicial_Security_Measures",
+      "patterns": ["Explain the security measures in place to protect judges.", "Discuss the safety of judges in India."],
+      "responses": ["Security measures include safeguards to protect judges from threats or harm, ensuring their safety and independence."]
+    },
+    {
+      "tag": "Judicial_Legal_Ethics",
+      "patterns": ["Discuss legal ethics for judges in India.", "Explain the ethical principles judges must follow."],
+      "responses": ["Judges in India are bound by ethical principles, including impartiality, fairness, and upholding the rule of law."]
+    },
+    {
+      "tag": "Judicial_Case_Management",
+      "patterns": ["Explain the management of cases in Indian courts.", "Discuss the role of case management."],
+      "responses": ["Case management ensures efficient and timely resolution of cases, reducing delays and backlogs in the judicial system."]
+    },
+    {
+      "tag": "Judicial_Legacy_Indian_Judges",
+      "patterns": ["Discuss the legacy of notable Indian judges.", "Explain the contributions of distinguished judges."],
+      "responses": ["Distinguished judges in India have left a lasting legacy through landmark judgments and contributions to jurisprudence."]
+    },
+    {
+      "tag": "Judicial_Fair_Trials",
+      "patterns": ["Explain the importance of fair trials in the Indian judiciary.", "Discuss how fair trials are ensured."],
+      "responses": ["Fair trials are essential to justice, and they are ensured through the principles of natural justice and due process in the Indian judiciary."]
+    },
+    {
+      "tag": "Judicial_Salary_Pay_Scale",
+      "patterns": ["How are judges' salaries determined in India?", "Discuss the pay scale and benefits for judges."],
+      "responses": ["Judges' salaries and benefits are determined by the government to attract and retain qualified individuals on the bench."]
+    },
+    {
+      "tag": "Judicial_Interpreter_Laws",
+      "patterns": ["Explain the laws and regulations governing judicial interpreters in India.", "Discuss the role and qualifications of interpreters."],
+      "responses": ["Laws and regulations govern the use of interpreters in courts, and interpreters must be qualified to ensure accurate communication."]
+    },
+    {
+      "tag": "Judicial_Policies_Gender_Equality",
+      "patterns": ["Discuss judicial policies related to gender equality in India.", "Explain how the judiciary promotes gender justice."],
+      "responses": ["The Indian judiciary promotes gender equality through policies that address gender-based discrimination and violence."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Overview",
+      "patterns": ["Explain the Indian Penal Code (IPC).", "Discuss the purpose of the IPC."],
+      "responses": ["The IPC is a legal code that defines crimes and their penalties in India, ensuring justice and law enforcement."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_History",
+      "patterns": ["Discuss the history of the IPC.", "Explain the development of the IPC."],
+      "responses": ["The IPC was first enacted in 1860 during British rule and has undergone amendments to reflect contemporary legal standards."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Criminal_Offenses",
+      "patterns": ["What are the types of criminal offenses covered by the IPC?", "Discuss common criminal offenses in the IPC."],
+      "responses": ["The IPC covers a wide range of offenses, including theft, assault, homicide, fraud, and more."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Penalties",
+      "patterns": ["Explain the penalties under the IPC.", "Discuss the punishment for different offenses."],
+      "responses": ["Penalties under the IPC vary depending on the nature and severity of the offense and may include fines, imprisonment, or both."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Amendments",
+      "patterns": ["Discuss significant amendments to the IPC.", "Explain changes in the IPC over time."],
+      "responses": ["The IPC has undergone several amendments to adapt to evolving legal and social norms, including changes in punishment and new offenses."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Online_Crimes",
+      "patterns": ["Explain how the IPC addresses online crimes.", "Discuss cybercrimes covered by the IPC."],
+      "responses": ["The IPC includes provisions for cybercrimes like hacking, data theft, and online fraud, with appropriate penalties."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Self_Defense",
+      "patterns": ["Discuss self-defense under the IPC.", "Explain when self-defense is legally permissible."],
+      "responses": ["The IPC allows self-defense when it is necessary and proportionate to protect oneself or others from imminent harm."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Juvenile_Offenders",
+      "patterns": ["Explain how the IPC treats juvenile offenders.", "Discuss the legal provisions for juvenile offenders."],
+      "responses": ["The IPC includes provisions for the treatment of juvenile offenders, focusing on rehabilitation rather than punishment."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_White_Collar_Crimes",
+      "patterns": ["Discuss white-collar crimes under the IPC.", "Explain offenses related to financial fraud."],
+      "responses": ["The IPC addresses white-collar crimes like embezzlement, forgery, and financial fraud, with penalties applicable."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Women_Safety",
+      "patterns": ["Explain provisions in the IPC for women's safety.", "Discuss legal protections against gender-based violence."],
+      "responses": ["The IPC includes sections for offenses like dowry harassment, domestic violence, and sexual harassment to protect women's rights."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Hate_Crimes",
+      "patterns": ["Discuss how the IPC deals with hate crimes.", "Explain provisions against hate-motivated offenses."],
+      "responses": ["The IPC includes sections to address hate crimes, such as those driven by religious or ethnic bias, with enhanced penalties."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Criminal_Procedure",
+      "patterns": ["Explain the criminal procedure under the IPC.", "Discuss the stages of a criminal trial."],
+      "responses": ["Criminal procedures in India, as per the IPC, involve stages like investigation, charge sheet, trial, and appeal."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Abuse_Of_Law",
+      "patterns": ["Discuss provisions against the abuse of legal processes under the IPC.", "Explain penalties for misuse of law."],
+      "responses": ["The IPC includes sections to deter and penalize the abuse of legal processes, such as filing false complaints or frivolous lawsuits."],
+      "context": [""]},
+    {
+      "tag": "IPC_Victim_Rights",
+      "patterns": ["Discuss the rights of crime victims under the IPC.", "Explain legal protections for victims."],
+      "responses": ["The IPC includes provisions to protect the rights of crime victims, ensuring their participation in legal proceedings."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Domestic_Violence",
+      "patterns": ["Explain the IPC's provisions for domestic violence.", "Discuss legal remedies for victims of domestic abuse."],
+      "responses": ["The IPC addresses domestic violence and provides legal remedies, including protection orders and penalties for offenders."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Sedition_Laws",
+      "patterns": ["Discuss sedition laws under the IPC.", "Explain the elements of sedition offenses."],
+      "responses": ["The IPC includes sections on sedition, which involve acts that incite violence or hatred against the state, with legal consequences."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Witness_Protection",
+      "patterns": ["Discuss witness protection under the IPC.", "Explain measures to protect witnesses."],
+      "responses": ["The IPC includes provisions for witness protection to encourage witnesses to come forward and testify without fear of harm."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Cyber_Bullying",
+      "patterns": ["Explain how the IPC addresses cyberbullying.", "Discuss legal provisions against online harassment."],
+      "responses": ["The IPC covers cyberbullying and online harassment, with penalties for those who engage in such behavior."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Homicide_Laws",
+      "patterns": ["Discuss homicide laws under the IPC.", "Explain the different degrees of homicide offenses."],
+      "responses": ["The IPC classifies homicide offenses into various degrees, each carrying distinct penalties based on the circumstances."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Property_Crimes",
+      "patterns": ["Discuss property crimes under the IPC.", "Explain offenses related to theft and vandalism."],
+      "responses": ["The IPC includes provisions for property crimes like theft, burglary, and vandalism, with corresponding penalties."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Judicial_Interpretation",
+      "patterns": ["Explain the role of judicial interpretation in the IPC.", "Discuss how courts interpret and apply the IPC."],
+      "responses": ["Courts play a crucial role in interpreting and applying the IPC, ensuring consistent legal standards."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Anticipatory_Bail",
+      "patterns": ["Discuss anticipatory bail provisions under the IPC.", "Explain when anticipatory bail is granted."],
+      "responses": ["The IPC allows for anticipatory bail, which can be granted to individuals to prevent their arrest in certain cases."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Terrorism_Offenses",
+      "patterns": ["Explain the IPC's provisions on terrorism offenses.", "Discuss penalties for acts of terrorism."],
+      "responses": ["The IPC includes sections to address terrorism offenses, imposing severe penalties on individuals involved in acts of terror."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Adultery_Laws",
+      "patterns": ["Discuss adultery laws under the IPC.", "Explain the legal stance on adultery."],
+      "responses": ["The IPC contains provisions related to adultery, with considerations of consent and the impact on marital relationships."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Capital_Punishment",
+      "patterns": ["Discuss capital punishment under the IPC.", "Explain when the death penalty is awarded."],
+      "responses": ["The IPC provides for the death penalty in certain cases, with legal safeguards and strict criteria for its imposition."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Juvenile_Justice",
+      "patterns": ["Discuss juvenile justice provisions in the IPC.", "Explain how juvenile offenders are treated."],
+      "responses": ["The IPC includes provisions for juvenile justice, focusing on rehabilitation and reintegration for young offenders."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Extortion_Laws",
+      "patterns": ["Explain extortion laws under the IPC.", "Discuss the elements of the offense of extortion."],
+      "responses": ["The IPC covers extortion as an offense involving threats or coercion to obtain property, with corresponding penalties."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Compoundable_Offenses",
+      "patterns": ["Discuss compoundable offenses under the IPC.", "Explain when offenses can be settled through compromise."],
+      "responses": ["Certain offenses under the IPC are compoundable, allowing parties to reach a compromise and settle the matter."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Juvenile_Sentencing",
+      "patterns": ["Discuss the sentencing of juvenile offenders under the IPC.", "Explain how sentences are determined."],
+      "responses": ["The IPC outlines procedures for sentencing juvenile offenders, considering factors like age, the nature of the offense, and rehabilitation."],
+      "context": [""]
+    },
+    {
+      "tag": "IPC_Crime_Against_Women",
+      "patterns": ["Explain crimes against women under the IPC.", "Discuss legal provisions for women's safety."],
+      "responses": ["The IPC includes sections addressing crimes against women, such as rape, dowry-related offenses, and sexual harassment."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Overview",
+      "patterns": ["Explain the Indian Constitution.", "Discuss the significance of the Constitution."],
+      "responses": ["The Indian Constitution is the supreme law of the land, providing the framework for governance and protecting fundamental rights."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_History",
+      "patterns": ["Discuss the history of the Indian Constitution.", "Explain the process of constitution-making."],
+      "responses": ["The Indian Constitution was adopted in 1950, following extensive debates and contributions from prominent leaders."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Preamble",
+      "patterns": ["Explain the Preamble of the Indian Constitution.", "Discuss the goals and values outlined in the Preamble."],
+      "responses": ["The Preamble reflects the objectives of the Constitution, including justice, liberty, equality, and fraternity."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Fundamental_Rights",
+      "patterns": ["Discuss the Fundamental Rights in the Constitution.", "Explain the significance of individual rights."],
+      "responses": ["Fundamental Rights guarantee individual freedoms and protect citizens from arbitrary state action."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Directive_Principles",
+      "patterns": ["Explain the Directive Principles of State Policy.", "Discuss the principles guiding state policy."],
+      "responses": ["Directive Principles provide guidance for governments to promote social and economic justice in India."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Fundamental_Duties",
+      "patterns": ["Discuss the Fundamental Duties under the Constitution.", "Explain the responsibilities of citizens."],
+      "responses": ["Fundamental Duties outline citizens' obligations, including respecting the Constitution and promoting a sense of fraternity."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Separation_of_Powers",
+      "patterns": ["Explain the principle of separation of powers in the Constitution.", "Discuss the roles of the legislative, executive, and judiciary."],
+      "responses": ["The Constitution establishes a separation of powers, ensuring checks and balances among the three branches of government."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Amendments",
+      "patterns": ["Discuss the process of amending the Constitution.", "Explain how the Constitution can be modified."],
+      "responses": ["The Constitution can be amended through a prescribed process, allowing changes to its provisions."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Union_and_States",
+      "patterns": ["Explain the division of powers between the Union and States.", "Discuss federalism in the Constitution."],
+      "responses": ["The Constitution delineates the powers and responsibilities of the central government and state governments in India."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Judicial_Review",
+      "patterns": ["Discuss the concept of judicial review in the Constitution.", "Explain the judiciary's role in interpreting the Constitution."],
+      "responses": ["Judicial review empowers the judiciary to ensure that laws and government actions comply with the Constitution."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Constitutional_Amendments",
+      "patterns": ["Discuss significant constitutional amendments.", "Explain how amendments have impacted the Constitution."],
+      "responses": ["Notable amendments have addressed issues like land reform, the rights of minorities, and the duration of state legislatures."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_President_of_India",
+      "patterns": ["Discuss the role and powers of the President of India.", "Explain the President's position in the Constitution."],
+      "responses": ["The President is the ceremonial head of state with certain powers, including granting pardons and appointing judges."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Prime_Minister",
+      "patterns": ["Explain the role and powers of the Prime Minister.", "Discuss the office of the Prime Minister in the Constitution."],
+      "responses": ["The Prime Minister is the head of government, responsible for running the administration and representing India internationally."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Judiciary_Independence",
+      "patterns": ["Discuss the independence of the judiciary in the Constitution.", "Explain how judicial independence is safeguarded."],
+      "responses": ["The Constitution ensures judicial independence by protecting judges from arbitrary removal and interference in their work."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Minority_Rights",
+      "patterns": ["Discuss the protection of minority rights in the Constitution.", "Explain how the Constitution safeguards minority interests."],
+      "responses": ["The Constitution contains provisions to protect the rights and interests of religious and linguistic minorities."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Federalism",
+      "patterns": ["Explain the concept of federalism in the Constitution.", "Discuss the distribution of powers between the center and states."],
+      "responses": ["Federalism in the Constitution divides powers between the Union and states, allowing them to govern independently in certain areas."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Language_Policies",
+      "patterns": ["Discuss language policies in the Constitution.", "Explain the recognition and use of languages in India."],
+      "responses": ["The Constitution recognizes multiple languages, with Hindi and English as official languages and regional languages used in states."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Legal_Aid",
+      "patterns": ["Explain the right to legal aid in the Constitution.", "Discuss provisions for access to justice."],
+      "responses": ["The Constitution provides for legal aid to ensure access to justice, particularly for marginalized and underprivileged individuals."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Caste_Reservations",
+      "patterns": ["Discuss caste reservations in the Constitution.", "Explain affirmative action and reservation policies."],
+      "responses": ["The Constitution includes provisions for reservations to uplift socially and educationally disadvantaged groups."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Emergency_Provisions",
+      "patterns": ["Discuss emergency provisions in the Constitution.", "Explain the declaration of emergencies."],
+      "responses": ["The Constitution allows for the declaration of three types of emergencies, including national, state, and financial emergencies."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Judicial_Activism",
+      "patterns": ["Discuss judicial activism in the Constitution.", "Explain the proactive role of the judiciary."],
+      "responses": ["Judicial activism refers to instances where the judiciary takes an active role in interpreting and enforcing constitutional provisions."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Free_Speech",
+      "patterns": ["Explain the right to free speech in the Constitution.", "Discuss the scope and limitations of free speech."],
+      "responses": ["The Constitution guarantees the right to free speech but allows for certain restrictions in the interest of public order and morality."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Social_Justice",
+      "patterns": ["Discuss the principle of social justice in the Constitution.", "Explain the Constitution's focus on equality and social welfare."],
+      "responses": ["Social justice is a fundamental principle of the Constitution, aimed at reducing inequalities and ensuring equal opportunities."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Minority_Education",
+      "patterns": ["Discuss minority education rights in the Constitution.", "Explain provisions for religious and linguistic minorities in education."],
+      "responses": ["The Constitution protects the educational rights of minority communities and their right to establish educational institutions."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Environmental_Protection",
+      "patterns": ["Discuss environmental protection in the Constitution.", "Explain the role of the Constitution in safeguarding the environment."],
+      "responses": ["The Constitution contains provisions for environmental protection and the duty to protect and improve the environment."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Legal_Enforcement",
+      "patterns": ["Discuss the legal enforcement of constitutional rights.", "Explain how individuals can seek redress for violations."],
+      "responses": ["Individuals can seek redress for violations of constitutional rights through writ petitions and legal action."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Religious_Freedom",
+      "patterns": ["Explain the right to religious freedom in the Constitution.", "Discuss the Constitution's stance on religious rights."],
+      "responses": ["The Constitution guarantees the right to religious freedom and prohibits discrimination based on religion."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Legislative_Procedure",
+      "patterns": ["Discuss the legislative procedure in the Constitution.", "Explain how laws are made in India."],
+      "responses": ["The Constitution outlines the legislative process, which involves both houses of Parliament and state legislatures."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Judicial_Independence",
+      "patterns": ["Discuss judicial independence in the Constitution.", "Explain the safeguards for the independence of the judiciary."],
+      "responses": ["The Constitution ensures the independence of the judiciary by protecting the tenure and removal process of judges."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Scheduled_Castes",
+      "patterns": ["Discuss the protection and upliftment of Scheduled Castes in the Constitution.", "Explain the provisions for SC/ST communities."],
+      "responses": ["The Constitution contains special provisions for the welfare and protection of Scheduled Castes and Scheduled Tribes."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Legal_Affirmative_Action",
+      "patterns": ["Discuss legal affirmative action in the Constitution.", "Explain the reservation and quota system."],
+      "responses": ["The Constitution allows for affirmative action through reservations and quotas to uplift historically disadvantaged groups."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Citizenship_Laws",
+      "patterns": ["Explain citizenship laws in the Constitution.", "Discuss the acquisition and loss of citizenship."],
+      "responses": ["The Constitution contains provisions on Indian citizenship, including modes of acquisition and loss."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Tripartite_Governance",
+      "patterns": ["Discuss the tripartite system of governance in the Constitution.", "Explain the roles of the legislature, executive, and judiciary."],
+      "responses": ["The Constitution establishes a tripartite system of governance, with distinct roles for each branch."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Election_Process",
+      "patterns": ["Explain the election process in the Constitution.", "Discuss the conduct of elections in India."],
+      "responses": ["The Constitution outlines the process for conducting elections, including the role of the Election Commission."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Territorial_Integrity",
+      "patterns": ["Discuss the principle of territorial integrity in the Constitution.", "Explain the safeguarding of India's borders."],
+      "responses": ["The Constitution upholds the principle of territorial integrity and ensures the protection of India's borders."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Human_Rights",
+      "patterns": ["Explain human rights provisions in the Constitution.", "Discuss the protection of human rights."],
+      "responses": ["The Constitution protects fundamental human rights and freedoms, ensuring dignity and equality for all citizens."],
+      "context": [""]
+    },
+    {
+      "tag": "Constitution_Judicial_Review_Supreme_Court",
+      "patterns": ["Discuss the power of judicial review by the Supreme Court.", "Explain the Supreme Court's authority to interpret the Constitution."],
+      "responses": ["The Supreme Court has the authority to review and strike down laws that are inconsistent with the Constitution."],
+      "context": [""]
+    },
+    
+        {
+          "tag": "Fundamental_Rights_Overview",
+          "patterns": ["Fundamental Rights in India", "What are Fundamental Rights?", "Tell me about Fundamental Rights"],
+          "responses": ["Fundamental Rights are the basic rights of the people enshrined in Part III of the Indian Constitution, ensuring civil liberties and equality for all citizens of India."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_to_Equality",
+          "patterns": ["What is Right to Equality?", "Explain Article 14-18", "Tell me about equality before law"],
+          "responses": ["Right to equality includes provisions like equality before the law, prohibition of discrimination based on religion, race, caste, and more. It spans from Article 14 to Article 18 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_to_Freedom",
+          "patterns": ["Tell me about Right to Freedom", "Explain Article 19-22", "What does freedom of speech include?"],
+          "responses": ["Right to freedom encompasses freedom of speech, assembly, association, movement, and more. It is defined in Article 19 to 22 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_Against_Exploitation",
+          "patterns": ["What is Right Against Exploitation?", "Explain Article 23-24", "Prohibition of child labor"],
+          "responses": ["Right Against Exploitation prohibits forced labor, child labor, and human trafficking, as detailed in Articles 23 and 24 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_to_Freedom_of_Religion",
+          "patterns": ["Explain Right to Freedom of Religion", "Article 25-28 details", "What are the religious freedoms in India?"],
+          "responses": ["Right to Freedom of Religion includes freedom of conscience, religious practice, and propagation. It is outlined in Articles 25 to 28 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Cultural_and_Educational_Rights",
+          "patterns": ["Tell me about Cultural and Educational Rights", "Article 29-30 in the Constitution", "Conservation of culture and education"],
+          "responses": ["Cultural and Educational Rights preserve the right to conserve culture and establish educational institutions. They are addressed in Articles 29 and 30 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_to_Constitutional_Remedies",
+          "patterns": ["Explain Right to Constitutional Remedies", "Article 32-35 details", "Enforcement of Fundamental Rights"],
+          "responses": ["Right to Constitutional Remedies allows the enforcement of Fundamental Rights and is described in Articles 32 to 35 of the Indian Constitution."],
+          "context": [""]
+        },
+        {
+          "tag": "Right_to_Education",
+          "patterns": ["What is the Right to Education?", "Article 21A introduced in 2002", "Aim of ensuring education for all"],
+          "responses": ["The Right to Education, introduced in Article 21A in 2002, aims to provide quality education to every child aged 6-14. It became enforceable with the Right to Education Act, 2009."],
+          "context": [""]
+        },
+        
+            {
+              "tag": "Fundamental_Duties_Overview",
+              "patterns": ["Fundamental Duties in India", "What are Fundamental Duties?", "Tell me about Fundamental Duties"],
+              "responses": ["Fundamental Duties are the duties of every citizen of India outlined in Article 51A of the Indian Constitution, emphasizing respect for the Constitution, sovereignty, unity, and more."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Abide_by_the_Constitution",
+              "patterns": ["What is the duty to abide by the Constitution?", "Respect for ideals and institutions", "National Flag and National Anthem"],
+              "responses": ["It is the duty of every citizen to abide by the Constitution and respect its ideals and institutions, as well as the National Flag and the National Anthem."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Cherish_and_Follow_Noble_Ideals",
+              "patterns": ["Explain the duty to cherish and follow noble ideals", "Inspiration from the national struggle for freedom"],
+              "responses": ["Citizens are obligated to cherish and follow the noble ideals that inspired the national struggle for freedom."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Uphold_Sovereignty_and_Unity",
+              "patterns": ["What is the duty to uphold sovereignty and unity?", "Protecting the integrity of the nation"],
+              "responses": ["It is the duty of every citizen to uphold and protect the sovereignty, unity, and integrity of India, safeguarding the nation's integrity."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Defend_the_Country",
+              "patterns": ["Explain the duty to defend the country", "National service when called upon"],
+              "responses": ["Citizens have the duty to defend the country and render national service when called upon to do so."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Promote_Harmony_and_Common_Brotherhood",
+              "patterns": ["What is the duty to promote harmony and common brotherhood?", "Transcending diversities and respecting women's dignity"],
+              "responses": ["Citizens are obliged to promote harmony and the spirit of common brotherhood, transcending religious, linguistic, and regional diversities while renouncing practices derogatory to the dignity of women."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Value_and_Preserve_Culture",
+              "patterns": ["Explain the duty to value and preserve culture", "Conservation of rich heritage"],
+              "responses": ["It is the duty of every citizen to value and preserve the rich heritage of our composite culture."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Protect_and_Improve_the_Environment",
+              "patterns": ["What is the duty to protect and improve the environment?", "Conservation of natural resources and compassion for living creatures"],
+              "responses": ["Citizens have the duty to protect and improve the natural environment, including forests, lakes, rivers, wildlife, and to have compassion for living creatures."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Develop_Scientific_Temper_and_Humanism",
+              "patterns": ["Explain the duty to develop scientific temper and humanism", "Spirit of inquiry and reform"],
+              "responses": ["Developing the scientific temper, humanism, and the spirit of inquiry and reform is a fundamental duty of every citizen."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Safeguard_Public_Property",
+              "patterns": ["What is the duty to safeguard public property?", "Abjuring violence"],
+              "responses": ["Citizens have the duty to safeguard public property and abjure violence."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Strive_towards_Excellence",
+              "patterns": ["Explain the duty to strive towards excellence", "Rising to higher levels of endeavor and achievement"],
+              "responses": ["Every citizen's duty is to strive towards excellence in all spheres of individual and collective activity so that the nation constantly rises to higher levels of endeavor and achievement."],
+              "context": [""]
+            },
+            {
+              "tag": "Duty_to_Provide_Opportunities_for_Education",
+              "patterns": ["What is the duty to provide opportunities for education?", "Child's education between 6-14 years"],
+              "responses": ["A parent or guardian is obligated to provide opportunities for education to their child or ward between the ages of six and fourteen."],
+              "context": [""]
+            },
+            {
+              "tag": "Assemblies_of_India_Overview",
+              "patterns": ["Assemblies of India", "What are the Assemblies?", "Tell me about Indian Assemblies"],
+              "responses": ["The Assemblies of India refer to the legislative bodies in the country, including the Parliament and State Legislative Assemblies, responsible for making laws and governance."],
+              "context": [""]
+            },
+            {
+              "tag": "Indian_Parliament",
+              "patterns": ["Tell me about the Indian Parliament", "What is the role of the Parliament?", "Parliament in India"],
+              "responses": ["The Indian Parliament is the supreme legislative body of the country, consisting of two houses: the Lok Sabha (House of the People) and the Rajya Sabha (Council of States). It plays a crucial role in lawmaking and governance at the national level."],
+              "context": [""]
+            },
+            {
+              "tag": "Lok_Sabha",
+              "patterns": ["Explain the Lok Sabha", "Role of Lok Sabha", "What is Lok Sabha in India?"],
+              "responses": ["The Lok Sabha, also known as the House of the People, is the lower house of the Indian Parliament. It is composed of elected representatives and plays a pivotal role in the passage of bills and the functioning of the government."],
+              "context": [""]
+            },
+            {
+              "tag": "Rajya_Sabha",
+              "patterns": ["What is Rajya Sabha in India?", "Tell me about the Rajya Sabha", "Role of Rajya Sabha"],
+              "responses": ["The Rajya Sabha, also known as the Council of States, is the upper house of the Indian Parliament. It consists of members appointed by the President and serves as a revising chamber, reviewing and amending bills passed by the Lok Sabha."],
+              "context": [""]
+            },
+            {
+              "tag": "State_Legislative_Assemblies",
+              "patterns": ["Explain State Legislative Assemblies in India", "Tell me about State Assemblies", "Role of State Legislative Assemblies"],
+              "responses": ["State Legislative Assemblies are legislative bodies at the state level in India. Each state has its own legislative assembly responsible for making state-specific laws and governing the state."],
+              "context": [""]
+            },
+            {
+              "tag": "Governance_in_Assemblies",
+              "patterns": ["How is governance carried out in the Assemblies?", "Role of Assemblies in governance", "Legislative and governance functions"],
+              "responses": ["Assemblies in India are responsible for both legislative functions (making laws) and governance. They ensure the effective functioning of the government and the implementation of policies."],
+              "context": [""]
+            },
+            {
+              "tag": "Elections_in_Assemblies",
+              "patterns": ["Tell me about elections in the Assemblies", "How are members elected?", "Electoral process in India"],
+              "responses": ["Members of the Indian Parliament and State Legislative Assemblies are elected through periodic elections based on a democratic voting system, allowing citizens to choose their representatives."],
+              "context": [""]
+            },
+            {
+              "tag": "Assemblies_and_Democracy",
+              "patterns": ["What is the role of Assemblies in Indian democracy?", "Democracy and legislative bodies", "Democracy in India"],
+              "responses": ["Assemblies are integral to the democratic system in India, where elected representatives make and amend laws, ensuring the functioning of a democratic government."],
+              "context": [""]
+            },
+            {
+              "tag": "Assemblies_and_Lawmaking",
+              "patterns": ["How do Assemblies contribute to lawmaking?", "Lawmaking in Indian Assemblies", "Role in legislation"],
+              "responses": ["Assemblies play a critical role in the lawmaking process by introducing, debating, amending, and passing bills, which are then enacted into laws."],
+              "context": [""]
+            }
+          
+      
+    
+    
+
+
+
+      ]}
+        
